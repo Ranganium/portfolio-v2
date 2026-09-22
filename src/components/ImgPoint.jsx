@@ -1,6 +1,8 @@
+import styles from "./ImgPoint.module.css";
+
 function ImgPoint({ img, point }) {
   return (
-    <div className="img-point">
+    <div className={styles.point}>
       <img src={img} />
       <p>{point}</p>
     </div>

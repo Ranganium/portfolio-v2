@@ -1,0 +1,17 @@
+.button {
+  padding: 0.5rem;
+  background-color: var(--orange);
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.text {
+  font-family: var(--header-fontfamily);
+  font-weight: var(--header-font-weight);
+  font-size: var(--CTA-size);
+  color: var(--text);
+  line-height: 0.95;
+  text-transform: uppercase;
+  text-decoration: none;
+}

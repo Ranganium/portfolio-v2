@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import AboutMePage from "./pages/AboutMePage";
 import HomePage from "./pages/HomePage";
 import Error from "./pages/Error";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/om-mig" element={<AboutMePage />}></Route>
         <Route path="*" element={<Error />}></Route>
       </Routes>
+      <Footer />
     </Router>
   );
 }

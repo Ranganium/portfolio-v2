@@ -24,17 +24,18 @@ import europeanIcon from "../assets/european-icon.svg";
 // props
 import ImgPoint from "../components/ImgPoint.jsx";
 import ExperienceCard from "../components/ExperienceCard.jsx";
+import styles from "./AboutMePage.module.css";
 
 function AboutMePage() {
   return (
-    <div className="about-page">
-      <section className="about-hero">
+    <div className={styles.aboutPage}>
+      <section className={styles.aboutHero}>
         <img src={aboutPattern} aria-hidden="true" />
         <h1>hvem er jeppe</h1>
       </section>
-      <div className="about-grid">
-        <div className="about-column">
-          <div className="about-bio">
+      <div className={styles.aboutGrid}>
+        <div className={styles.aboutColumn}>
+          <div className={styles.aboutBio}>
             <p>Hej!</p>
             <p>
               Mit navn er Jeppe. Jeg kommer fra en lille by i Vestjylland kaldet
@@ -53,7 +54,7 @@ function AboutMePage() {
               empatisk og håber andre har det godt.
             </p>
           </div>
-          <div className="about-testimonial">
+          <div className={styles.aboutTestimonial}>
             <h3>Testimonial</h3>
             <p>
               ”Jeppe har en systematisk tilgang til opgaver, og det har været en
@@ -69,46 +70,46 @@ function AboutMePage() {
           </div>
         </div>
 
-        <div className="about-column">
-          <div className="image-wrapper">
+        <div className={styles.aboutColumn}>
+          <div className={styles.imageWrapper}>
             <img src={JeppeBillede} alt="billede af Jeppe" />
           </div>
 
-          <div className="tool-box">
+          <div className={styles.toolBox}>
             <h3>Værktøjskasse</h3>
-            <div className="tool-box-stuff">
-              <div className="about-icons">
+            <div className={styles.toolBoxStuff}>
+              <div className={styles.aboutIcons}>
                 <img src={figmaLogo} alt="Figma" />
                 <img src={illustratorLogo} alt="Adobe Illustrator" />
               </div>
-              <div className="orange-line"></div>
+              <div className={styles.orangeLine}></div>
               <span>Design & prototyping</span>
             </div>
-            <div className="tool-box-stuff">
-              <div className="about-icons">
+            <div className={styles.toolBoxStuff}>
+              <div className={styles.aboutIcons}>
                 <img src={cssLogo} alt="CSS" />
                 <img src={htmlLogo} alt="HTML" />
                 <img src={reactLogo} alt="React" />
                 <img src={javascriptLogo} alt="JavaScript" />
               </div>
-              <div className="orange-line"></div>
+              <div className={styles.orangeLine}></div>
               <span>Frontendudvikling</span>
             </div>
-            <div className="tool-box-stuff">
-              <div className="about-icons">
+            <div className={styles.toolBoxStuff}>
+              <div className={styles.aboutIcons}>
                 <img src={githubLogo} alt="GitHub" />
                 <img src={gitLogo} alt="git" />
               </div>
-              <div className="orange-line"></div>
+              <div className={styles.orangeLine}></div>
               <span>Samarbejde & versionsstyring</span>
             </div>
           </div>
         </div>
 
-        <div className="about-column">
-          <div className="interests-box">
+        <div className={styles.aboutColumn}>
+          <div className={styles.interestsBox}>
             <h3>Interesser</h3>
-            <div className="interests">
+            <div className={styles.interests}>
               <ImgPoint img={trainingIcon} point="Træning" />
               <ImgPoint img={gameIcon} point="Spille masser af computer" />
               <ImgPoint img={bakingIcon} point="Bagning & generel madlavning" />
@@ -119,7 +120,7 @@ function AboutMePage() {
             </div>
           </div>
 
-          <div className="experience-box">
+          <div className={styles.experienceBox}>
             <h3>Erfaring</h3>
             <ExperienceCard
               icon={educationIcon}

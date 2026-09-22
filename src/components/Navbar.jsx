@@ -1,28 +1,24 @@
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link"; // Importér pakken
 import Logo from "../assets/jk-logo.svg";
+import styles from "./Navbar.module.css";
 
 function Navbar() {
   return (
-    <nav>
+    <nav className={styles.navbar}>
       <Link to="/">
         <img src={Logo} alt="Logo" />
       </Link>
-      <div>
-        <Link className="nav-text" to="/">
-          Hjem
-        </Link>
 
-        <HashLink className="nav-text" to="/#projekter">
-          Projekter
-        </HashLink>
-
-        <Link className="nav-text" to="/om-mig">
+      <Link className={styles.link} to="/">
+        Portfolio
+      </Link>
+      <div className={styles.links}>
+        <Link className={styles.link} to="/om-mig">
           Om mig
         </Link>
-
-        <div className="cta-button">
-          <HashLink className="nav-text" to="/#kontakt">
+        <div className={styles.contact}>
+          <HashLink smooth className={styles.link} to="/#footer">
             Kontakt
           </HashLink>
         </div>

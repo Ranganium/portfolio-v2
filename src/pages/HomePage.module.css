@@ -1,0 +1,150 @@
+.homepage {
+  max-width: 1600px;
+  margin-top: 128px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.dubbleBraidPattern {
+  width: 100%;
+}
+
+.heroSection {
+  display: flex;
+  gap: 1rem;
+}
+
+.heroContent,
+.heroHeaderContent,
+.projectsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.heroHeaderContent h1 {
+  font-family: var(--hero-fontfamily);
+  font-size: var(--hero-size);
+}
+
+.heroContent,
+.heroPicture,
+.projectSumary {
+  width: 100%;
+  flex: 1;
+  min-width: 0;
+}
+
+.heroPicture {
+  height: auto;
+  display: block;
+}
+
+.projectsSection {
+  gap: 1.5rem;
+}
+
+.projectBtnContainer {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.projectBtn {
+  display: flex;
+  align-items: center;
+  /* Vi bruger space-between fast, så der er plads til både tekst og billede */
+  justify-content: space-between;
+  gap: 1rem;
+  width: 24rem;
+  min-height: 208px;
+  height: fit-content;
+  border: none;
+  border-radius: 1rem;
+  background: var(--secondary);
+  padding: 16px 8px;
+  cursor: pointer;
+  overflow: hidden;
+  box-sizing: border-box;
+
+  transition: background 0.4s ease-in-out;
+}
+
+.projectBtn:hover {
+  background: var(--hover-bg, var(--secondary));
+}
+
+.projectBtn img {
+  width: 148px;
+  height: auto;
+  display: block;
+  transform: translateX(110px);
+  transition: transform 0.4s ease-in-out;
+}
+
+/* Teksten toner nu rent ind og ud i stedet for at ændre bredde */
+.projectSumary {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-10px);
+  transition:
+    opacity 0.4s ease-in-out,
+    transform 0.4s ease-in-out,
+    visibility 0.4s ease-in-out;
+}
+
+.projectSumary span {
+  font-family: var(--header-fontfamily);
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+}
+
+.projectSumary h3 {
+  font-family: var(--hero-fontfamily);
+  font-size: var(--h2-size);
+  font-weight: 400;
+  color: black;
+}
+
+.projectSumary p {
+  font-size: var(--body-small-size);
+  color: black;
+}
+
+/* HOVER TILSTAND */
+.projectBtn:hover .projectSumary {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+/* Når vi hovrer, glider billedet tilbage til sin normale plads (0) med en transition */
+.projectBtn:hover img {
+  transform: translateX(0);
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.testimonial p {
+  font-size: var(--bigger-body-size);
+  font-style: italic;
+  align-items: center;
+  max-width: 1000px;
+  line-height: 150%;
+}
