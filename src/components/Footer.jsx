@@ -10,7 +10,10 @@ export default function Footer() {
             <h4>Send en mail</h4>
             <span>j.korsgaard.kristensen@gmail.com</span>
           </a>
-          <a className={styles.actionBtn}>
+          <a
+            hrep="https://www.linkedin.com/in/jeppe-kristensen-548240427/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEsMQPbiyRLexxuIpyMcPTQ%3D%3D"
+            className={styles.actionBtn}
+          >
             <h4>Kig på min Linkedin</h4>
             <span>/Jeppe Kristensen</span>
           </a>
