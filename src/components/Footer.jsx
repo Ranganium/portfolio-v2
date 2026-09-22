@@ -6,7 +6,10 @@ export default function Footer() {
       <div className={styles.footerContainer}>
         <h3>Kontakt</h3>
         <div className={styles.footerActions}>
-          <a className={styles.actionBtn}>
+          <a
+            href="mailto:j.korsgaard.kristensen@gmail.com"
+            className={styles.actionBtn}
+          >
             <h4>Send en mail</h4>
             <span>j.korsgaard.kristensen@gmail.com</span>
           </a>
