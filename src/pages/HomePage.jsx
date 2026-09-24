@@ -26,11 +26,11 @@ function HomePage() {
         <div className={styles.heroContent}>
           <div className={styles.heroHeaderContent}>
             <h2>Jeppe Kristensen</h2>
-            <h1>UX design & Udvikler</h1>
+            <h1>UX design & Developer</h1>
           </div>
           <p>
-            Jeg elsker at lave brugercentreret design og se det komme til live
-            med prototyping og implementering i kode.
+            I love creating user-centered design and seeing it come to life
+            through prototyping and implementation in code.
           </p>
         </div>
         <img
@@ -45,7 +45,7 @@ function HomePage() {
         aria-hidden="true"
       />
       <section className={styles.projectsSection}>
-        <h2>Projekter</h2>
+        <h2>Projects</h2>
         <div className={styles.projectBtnContainer}>
           <button
             className={styles.projectBtn}
@@ -56,8 +56,8 @@ function HomePage() {
               <span>Webapp</span>
               <h3>Mer' end Toast</h3>
               <p>
-                Opskriftapp, som samler opskrifter, pris og indkøbsliste i én
-                app
+                A recipe app that combines recipes, pricing, and shopping lists
+                into one single app.
               </p>
             </figcaption>
           </button>
@@ -69,7 +69,10 @@ function HomePage() {
             <figcaption className={styles.projectSumary}>
               <span>Webshop</span>
               <h3>Uniquely her</h3>
-              <p>Webshop med træningstøj til kvinder i alle former</p>
+              <p>
+                A webshop featuring fitness clothing to woman of all shapes and
+                sizes.
+              </p>
             </figcaption>
           </button>
           <button
@@ -80,27 +83,35 @@ function HomePage() {
             <figcaption className={styles.projectSumary}>
               <span>Website</span>
               <h3>Spilcaféen</h3>
-              <p>Webside til at overskueliggøre brætspiloversigt</p>
+              <p>
+                A website designed to provide a better overview of board games.
+              </p>
             </figcaption>
           </button>
           <button className={styles.projectBtn}>
             <figcaption className={styles.projectSumary}>
               <h3>Flere på vej</h3>
-              <p>Jeg vil opdatere listen, når jeg laver flere projekter</p>
+              <p>
+                Sorry, the website is still not quite finished yet, but here is
+                a Figma prototype
+              </p>
+              <a href="https://www.figma.com/proto/vlDJvPUlwcS3kLaMQIx0wr/Portfolio?node-id=448-22&t=ITjDzUIAfoRbQkPv-1">
+                Portfolio
+              </a>
             </figcaption>
           </button>
         </div>
       </section>
       <section className={styles.testimonial}>
         <p>
-          ”Jeppe har en systematisk tilgang til opgaver, og det har været en
-          stor hjælp i forhold til effektiviseringen af vores produktramme.
+          ”Jeppe has a systematic approach to tasks, which has been a great help
+          in streamlining our product framework.
         </p>
         <p>
-          Jeppe er ansvarlig, arbejdsom, loyal og en rigtig god kollega. Vi kan
-          derfor give Jeppe Kristensen vores bedste anbefalinger”
+          Jeppe is responsible, hardworking, loyal, and a truly great colleague.
+          We therefore give Jeppe Kristensen our highest recommendations”
         </p>
-        <p>- Erik Hein, Soldaterhjemsleder</p>
+        <p>- Erik Hein, Manager at the Soldiers' Home</p>
       </section>
     </div>
   );

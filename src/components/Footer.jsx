@@ -17,15 +17,15 @@ export default function Footer() {
             hrep="https://www.linkedin.com/in/jeppe-kristensen-548240427/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEsMQPbiyRLexxuIpyMcPTQ%3D%3D"
             className={styles.actionBtn}
           >
-            <h4>Kig på min Linkedin</h4>
+            <h4>Linkedin</h4>
             <span>/Jeppe Kristensen</span>
           </a>
           <a className={styles.actionBtn}>
-            <h4>Ring eller send en SMS</h4>
+            <h4>Call or SMS</h4>
             <span>+45 30 48 85 23</span>
           </a>
           <a className={styles.actionBtn}>
-            <h4>Se min Github</h4>
+            <h4>Github</h4>
             <span>@Ranganium</span>
           </a>
         </div>
