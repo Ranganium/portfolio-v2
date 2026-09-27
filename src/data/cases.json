@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "title": "Spilcaféen",
+    "site-type": "Website",
+    "project-logo": "../assets/spilcafe-logo.webp",
+    "concept": [
+      "In this first-semester project, I redesigned SpilCaféen's game catalog to make it more intuitive and user-friendly. While built upon an initial group assignment, this individual exam project allowed me to independently iterate on and elevate the final solution.",
+      "We had to independently identify the target audience and analyze their behavior using user studies and observations.",
+      "The design of the page is inspired by Spilcaféen's original website"
+    ],
+    "technologiesUsed": ["Figma", "GitHub", "CSS", "HTML", "JavaScript"],
+    "platform": "mobile",
+    "productImages": {
+      "mobile": [
+        "/spilcafe-imgages/overview.webp",
+        "/spilcafe-imgages/location.webp",
+        "/spilcafe-imgages/filter.webp",
+        "/spilcafe-imgages/game-card.webp",
+        "/spilcafe-imgages/burger-menu.webp"
+      ],
+      "desktop": []
+    },
+    "projectLinks": {
+      "prototype": "https://www.figma.com/proto/wGBlln9HF31qIMC2VDTrFn/Eksamensprojekt--IxD-?node-id=1-3&t=Y7rUIyFUoalCRyAp-1",
+      "website": "https://ranganium.github.io/ixd-project-but-better/",
+      "repository": "https://github.com/Ranganium/ixd-project-but-better"
+    },
+    "contributionTags": ["UX/UI Design", "Research", "Frontend Development"],
+    "contributions": [
+      {
+        "heading": "Idea & Structure",
+        "text": "Before branching into an individual exam project, our team mapped out a flowchart for the overview page and used Object-Oriented UX (OOUX) principles to structure the content precisely. This foundational mapping allowed us to explore targeted design concepts for each individual element.",
+        "image": "/spilcafe-images/ooux-and-flowchart.webp"
+      },
+      {
+        "heading": "Inspiration",
+        "text": "When approaching the design phase, I found inspiration from platforms I frequently use myself. I drew inspiration from multi-location barber websites and Pricerunner's clean, structured layout for filter menus and product cards, remixing these elements into my final design where it fit.",
+        "image": "/spilcafe-images/inspiration-from-pricerunner-and-barbers.webp"
+      },
+      {
+        "heading": "Variation from design",
+        "text": "Translating the design into code as a first-semester student taught me how to balance ambition with practical execution. I realized that code sometimes requires pragmatic compromises, and that implementation can occasionally spark improvements that weren't in the original prototype. While this particular project reflects where I was at that stage of my education, it serves as a great benchmark for how much my technical skills have evolved since then.",
+        "image": "/spilcafe-images/design-variation.webp"
+      }
+    ],
+    "reflections": "Created during my first semester when my JavaScript experience was still limited, this project was a breakthrough for my CSS and HTML structuring, making layout spacing much easier to manage. It also involved adapting existing codebase elements; while I didn't fully grasp how the logic worked at the time, modifying and breaking down that code taught me a lot about practical implementation."
+  },
+  {
+    "id": 2,
+    "title": "Spilcaféen",
+    "site-type": "Webshop",
+    "project-logo": "../assets/uniquely-her-logo.webp",
+    "concept": [
+      "In this second-semester project, we created a retail web shop for women. 'Uniquely Her' is an all-in-one destination offering fitness clothes in multiple colors and fits to suit all women—not just slim ones.",
+      "We worked with a self-selected target audience to define the scope of the web shop. However, we dove deeper using research and performed segmentation to ensure we knew exactly who we were designing for.",
+      "The design was approached through a feminist lens, making it unmistakably clear that it was created for women."
+    ],
+    "technologiesUsed": [
+      "Adobe Firefly",
+      "Figma",
+      "Git",
+      "Github",
+      "React",
+      "CSS",
+      "HTML",
+      "JavaScript"
+    ],
+    "platform": "desktop",
+    "productImages": {
+      "mobile": [],
+      "desktop": [
+        "/uniquely-her-images/product-card.webp",
+        "/uniquely-her-images/404.webp",
+        "/uniquely-her-images/product-grid.webp"
+      ]
+    },
+    "projectLinks": {
+      "prototype": "https://www.figma.com/proto/RRipHKR62XR6xo6JdFIFsF/CX-eksamen---design?node-id=2-2&t=Zj7KqJyzokjmOb2f-1",
+      "website": "https://cillemdu.github.io/customer-experience-design-exam/.dk",
+      "repository": "https://github.com/CilleMDU/customer-experience-design-exam"
+    },
+    "contributionTags": ["UX/UI Design", "Research", "Frontend Development"],
+    "contributions": [
+      {
+        "heading": "Research",
+        "text": "Through research into the problem space, we explored major retail web shops and compared their women's and men's fitness clothes selections. We also analysed how they made their UX/UI design wich gave us deeper insight into the conventions used by leading platforms.",
+        "image": "/uniquely-her-images/research.webp"
+      },
+      {
+        "heading": "Target group",
+        "text": "Desk research revealed that while women have more fitness wear options overall, major retailers rely exclusively on athletic models—leaving the plus-size community underrepresented. To bridge this gap, 'Uniquely Her' prioritizes inclusive sizing and comfort for all body types, balancing athletic and plus-size clothes.",
+        "image": "/uniquely-her-images/representation.webp"
+      },
+      {
+        "heading": "Identety, design & vibe",
+        "text": "To define our brand identity, we established five core values: body-positive, motivating, fresh, relatable, and feminine. This resulted in a vibrant, feminine design featuring a playful, approachable tone—which is especially reflected in our custom title font and assets.",
+        "image": "/uniquely-her-images/design.webp"
+      }
+    ],
+    "reflections": "I learned how filter menus actually function under the hood. Beyond that, I realized how rewarding it is to analyze existing solutions, add your own unique twist, and build something custom. Finally, I gained valuable experience in diving headfirst into a subject I knew nothing about. I am a man after all."
+  },
+  {
+    "id": 3,
+    "title": "Mer' end Toast",
+    "site-type": "Webapp",
+    "project-logo": "../assets/mer-end-toast-logo.webp",
+    "concept": [
+      "For this second-semester project, we developed an app that brings together recipe searching, item and recipe pricing, and a shopping list into a single app.",
+      "The target audience was defined based on people looking to save money on food. Students were an obvious choice, and the name “Mer' end Toast” was selected because every young person i Denmark knows toast and knows it is an inexpensive snack, but this app is more than just toast.",
+      "Design and content were determined through detailed research involving user studies and competitor conventions."
+    ],
+    "technologiesUsed": [
+      "Figma",
+      "Git",
+      "GitHub",
+      "React",
+      "CSS",
+      "HTML",
+      "JavaScript",
+      "Supabase",
+      "Jitter"
+    ],
+    "platform": "mobile",
+    "productImages": {
+      "mobile": [
+        "/mer-end-toast-images/homepage.webp",
+        "/mer-end-toast-images/recipe-page.webp",
+        "/mer-end-toast-images/filterpage.webp",
+        "/mer-end-toast-images/filtered-page.webp"
+      ],
+      "desktop": []
+    },
+    "projectLinks": {
+      "prototype": "https://www.figma.com/proto/zIaaBLDnY3stpeh7Hi87vU/Design-stuff?node-id=233-4196&t=hDlKDzXjNRb8LVVz-1",
+      "website": "https://fkaysr.github.io/webapp-mer-end-toast/",
+      "repository": "https://github.com/FKAYSR/webapp-mer-end-toast"
+    },
+    "contributionTags": [
+      "UX/UI Design",
+      "Research",
+      "Supabase",
+      "Frontend Development"
+    ],
+    "contributions": [
+      {
+        "heading": "Research of conventions",
+        "text": "Through a thorough competitor analysis of 10 similar platforms during the discover phase, we identified market standards and pinpointed areas where we could stand out.",
+        "image": "/mer-end-toast-images/research.webp"
+      },
+      {
+        "heading": "Functions",
+        "text": "Our insights showed that Mer' end Toast would create the greatest value by integrating into as many parts of the users' cooking workflow as possible. Therefore, we prioritized two core features: price comparison between recipes with updates based on weekly promotional flyers, and a shopping list.",
+        "image": "/mer-end-toast-images/functions.webp"
+      },
+      {
+        "heading": "Technical challenge",
+        "text": "The most technical challenge was then building a well-structured database of recipes containing ingredients with units. Each ingredient would also need to include pricing and nutritional values.",
+        "image": "/mer-end-toast-images/supabase.webp"
+      }
+    ],
+    "reflections": "I learned how to use CRUD and Supabase even better and now have a great reference for future projects. In addition, I gained more experience with Jitter and Lottie animations."
+  }
+]
