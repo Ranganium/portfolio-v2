@@ -4,6 +4,7 @@ import AboutMePage from "./pages/AboutMePage";
 import HomePage from "./pages/HomePage";
 import Error from "./pages/Error";
 import Footer from "./components/Footer";
+import CasePage from "./pages/CasePage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/om-mig" element={<AboutMePage />}></Route>
         <Route path="*" element={<Error />}></Route>
+        <Route path="/projects/:slug" element={<CasePage />}></Route>
       </Routes>
       <Footer />
     </Router>

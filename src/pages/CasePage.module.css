@@ -1,0 +1,56 @@
+.casePage {
+  background: var(--primary);
+  margin-top: 128px;
+}
+
+.casePageContent {
+  display: flex;
+  flex-direction: column;
+  max-width: 1600px;
+  gap: 4rem;
+}
+
+.titleSection {
+  display: flex;
+  width: 100%;
+  padding: 0 64px;
+  align-items: center;
+  gap: 2rem;
+}
+
+.titleSection img {
+  width: 32rem;
+  margin: 0;
+}
+
+.titleContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: 0;
+}
+
+.titleContainer span {
+  color: var(--text);
+  font-family: var(--header-fontfamily);
+  font-size: var(--h2-size);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.introSection {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.conceptContainer,
+.technologyUsedContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  flex: 1;
+  min-width: 0;
+}

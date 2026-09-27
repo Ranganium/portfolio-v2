@@ -1,9 +1,10 @@
 [
   {
     "id": 1,
+    "slug": "spilcafeen",
     "title": "Spilcaféen",
-    "site-type": "Website",
-    "project-logo": "../assets/spilcafe-logo.webp",
+    "siteType": "Website",
+    "projectLogo": "../assets/logos/spilcafe-logo.webp",
     "concept": [
       "In this first-semester project, I redesigned SpilCaféen's game catalog to make it more intuitive and user-friendly. While built upon an initial group assignment, this individual exam project allowed me to independently iterate on and elevate the final solution.",
       "We had to independently identify the target audience and analyze their behavior using user studies and observations.",
@@ -48,19 +49,20 @@
   },
   {
     "id": 2,
+    "slug": "uniquely-her",
     "title": "Spilcaféen",
-    "site-type": "Webshop",
-    "project-logo": "../assets/uniquely-her-logo.webp",
+    "siteType": "Webshop",
+    "projectLogo": "../assets/logos/uniquely-her-logo.webp",
     "concept": [
       "In this second-semester project, we created a retail web shop for women. 'Uniquely Her' is an all-in-one destination offering fitness clothes in multiple colors and fits to suit all women—not just slim ones.",
       "We worked with a self-selected target audience to define the scope of the web shop. However, we dove deeper using research and performed segmentation to ensure we knew exactly who we were designing for.",
       "The design was approached through a feminist lens, making it unmistakably clear that it was created for women."
     ],
     "technologiesUsed": [
-      "Adobe Firefly",
+      "Firefly",
       "Figma",
       "Git",
-      "Github",
+      "GitHub",
       "React",
       "CSS",
       "HTML",
@@ -102,9 +104,10 @@
   },
   {
     "id": 3,
+    "slug": "mer-end-toast",
     "title": "Mer' end Toast",
-    "site-type": "Webapp",
-    "project-logo": "../assets/mer-end-toast-logo.webp",
+    "siteType": "Webapp",
+    "projectLogo": "../assets/logos/mer-end-toast-logo.webp",
     "concept": [
       "For this second-semester project, we developed an app that brings together recipe searching, item and recipe pricing, and a shopping list into a single app.",
       "The target audience was defined based on people looking to save money on food. Students were an obvious choice, and the name “Mer' end Toast” was selected because every young person i Denmark knows toast and knows it is an inexpensive snack, but this app is more than just toast.",
