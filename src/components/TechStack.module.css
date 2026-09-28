@@ -1,0 +1,13 @@
+.techBar {
+  display: flex;
+  padding: 1rem 1.5rem;
+  gap: 1.5rem;
+  background: var(--secondary);
+  border-radius: 999px;
+  width: fit-content;
+}
+
+.techItem {
+  height: 3rem;
+  aspect-ratio: 1/1;
+}

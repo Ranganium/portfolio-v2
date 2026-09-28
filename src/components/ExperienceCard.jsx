@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ImgPoint from "./ImgPoint.jsx";
-import plusIcon from "../assets/plus-icon.svg";
-import minusIcon from "../assets/minus-icon.svg";
+import plusIcon from "../assets/other-icons/plus-icon.svg";
+import minusIcon from "../assets/other-icons/minus-icon.svg";
 import styles from "./ExperienceCard.module.css";
 
 function ExperienceCard({ icon, title, competencies = [], description = [] }) {

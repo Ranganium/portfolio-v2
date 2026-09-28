@@ -6,6 +6,7 @@ export default function Footer() {
       <div className={styles.footerContainer}>
         <h3>Kontakt</h3>
         <div className={styles.footerActions}>
+          {/* Mail åbner i samme fane (standard for mailto) */}
           <a
             href="mailto:j.korsgaard.kristensen@gmail.com"
             className={styles.actionBtn}
@@ -13,18 +14,31 @@ export default function Footer() {
             <h4>Send en mail</h4>
             <span>j.korsgaard.kristensen@gmail.com</span>
           </a>
+
+          {/* LinkedIn åbner i ny fane */}
           <a
-            hrep="https://www.linkedin.com/in/jeppe-kristensen-548240427/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEsMQPbiyRLexxuIpyMcPTQ%3D%3D"
+            href="https://www.linkedin.com/in/jeppe-kristensen-548240427/"
+            target="_blank"
+            rel="noreferrer"
             className={styles.actionBtn}
           >
             <h4>Linkedin</h4>
             <span>/Jeppe Kristensen</span>
           </a>
-          <a className={styles.actionBtn}>
+
+          {/* Telefon åbner i samme fane (standard for tel) */}
+          <a href="tel:+4530488523" className={styles.actionBtn}>
             <h4>Call or SMS</h4>
             <span>+45 30 48 85 23</span>
           </a>
-          <a className={styles.actionBtn}>
+
+          {/* GitHub åbner i ny fane */}
+          <a
+            href="https://github.com/Ranganium"
+            target="_blank"
+            rel="noreferrer"
+            className={styles.actionBtn}
+          >
             <h4>Github</h4>
             <span>@Ranganium</span>
           </a>
