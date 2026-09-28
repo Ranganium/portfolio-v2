@@ -1,0 +1,49 @@
+.gallerySection {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.galleryContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+/* Header-linje: Titel til venstre, switch til højre */
+.galleryHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.galleryHeader img {
+  height: 3rem;
+  width: auto;
+}
+/* Den interaktive pille-switch */
+.toggleBtn {
+  display: inline-flex;
+  padding-right: 0.5rem;
+  align-items: center;
+  gap: 0.25rem;
+  border-radius: 999px;
+  background: var(--black);
+}
+
+/* Grid til selve skærmbillederne */
+.imageGrid {
+  display: flex;
+  padding: 0.25rem;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: auto;
+  border-radius: 0.625rem;
+}
+
+.imageGrid img {
+  height: 600px;
+}

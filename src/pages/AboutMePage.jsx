@@ -1,25 +1,24 @@
 // Mønster
-import aboutPattern from "../assets/about-pattern.svg";
+import aboutPattern from "../assets/other-icons/about-pattern.svg";
 // billede
 import JeppeBillede from "../assets/jeppe-billede.jpg";
 // Logoer og ikoner
-import figmaLogo from "../assets/figma-logo.svg";
-import illustratorLogo from "../assets/illustrator-logo.svg";
-import cssLogo from "../assets/css-logo.svg";
-import htmlLogo from "../assets/html-logo.svg";
-import reactLogo from "../assets/react-logo.svg";
-import javascriptLogo from "../assets/javascript-logo.svg";
-import githubLogo from "../assets/github-logo.svg";
-import gitLogo from "../assets/git-logo.svg";
-import trainingIcon from "../assets/training-icon.svg";
-import gameIcon from "../assets/game-icon.svg";
-import bakingIcon from "../assets/baking-icon.svg";
-import questioningIcon from "../assets/questioning-icon.svg";
+import figmaLogo from "../assets/tech-icons/figma.webp";
+import illustratorLogo from "../assets/tech-icons/adobe-illustrator.webp";
+import cssLogo from "../assets/tech-icons/css.webp";
+import htmlLogo from "../assets/tech-icons/html.webp";
+import reactLogo from "../assets/tech-icons/react.webp";
+import javascriptLogo from "../assets/tech-icons/javascript.webp";
+import githubLogo from "../assets/tech-icons/github.webp";
+import gitLogo from "../assets/tech-icons/git.webp";
+import trainingIcon from "../assets/other-icons/training-icon.svg";
+import gameIcon from "../assets/other-icons/game-icon.svg";
+import bakingIcon from "../assets/other-icons/baking-icon.svg";
+import questioningIcon from "../assets/other-icons/questioning-icon.svg";
 
-import educationIcon from "../assets/education-icon.svg";
-import workIcon from "../assets/work-icon.svg";
-import volonteerIcon from "../assets/volonteer-icon.svg";
-import europeanIcon from "../assets/european-icon.svg";
+import educationIcon from "../assets/other-icons/education-icon.svg";
+import workIcon from "../assets/other-icons/work-icon.svg";
+import europeanIcon from "../assets/other-icons/european-icon.svg";
 
 // props
 import ImgPoint from "../components/ImgPoint.jsx";
@@ -141,7 +140,7 @@ function AboutMePage() {
               ]}
             />
             <ExperienceCard
-              icon={volonteerIcon}
+              icon={null}
               title="Volontør på KFUM soldaterhjem"
               competencies={["Samarbejde", "Selvrealisering"]}
               description={[
