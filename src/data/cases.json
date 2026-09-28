@@ -45,7 +45,9 @@
         "image": "/spilcafe-images/design-variation.webp"
       }
     ],
-    "reflections": "Created during my first semester when my JavaScript experience was still limited, this project was a breakthrough for my CSS and HTML structuring, making layout spacing much easier to manage. It also involved adapting existing codebase elements; while I didn't fully grasp how the logic worked at the time, modifying and breaking down that code taught me a lot about practical implementation."
+    "reflections": "Created during my first semester when my JavaScript experience was still limited, this project was a breakthrough for my CSS and HTML structuring, making layout spacing much easier to manage. It also involved adapting existing codebase elements; while I didn't fully grasp how the logic worked at the time, modifying and breaking down that code taught me a lot about practical implementation.",
+    "buttonColor": "#BF181D",
+    "buttonSummary": "A website designed to provide a better overview of board games."
   },
   {
     "id": 2,
@@ -100,7 +102,9 @@
         "image": "/uniquely-her-images/design.webp"
       }
     ],
-    "reflections": "I learned how filter menus actually function under the hood. Beyond that, I realized how rewarding it is to analyze existing solutions, add your own unique twist, and build something custom. Finally, I gained valuable experience in diving headfirst into a subject I knew nothing about. I am a man after all."
+    "reflections": "I learned how filter menus actually function under the hood. Beyond that, I realized how rewarding it is to analyze existing solutions, add your own unique twist, and build something custom. Finally, I gained valuable experience in diving headfirst into a subject I knew nothing about. I am a man after all.",
+    "buttonColor": "#E66A9D",
+    "buttonSummary": "A webshop featuring fitness clothing to woman of all shapes and sizes."
   },
   {
     "id": 3,
@@ -162,6 +166,8 @@
         "image": "/mer-end-toast-images/supabase.webp"
       }
     ],
-    "reflections": "I learned how to use CRUD and Supabase even better and now have a great reference for future projects. In addition, I gained more experience with Jitter and Lottie animations."
+    "reflections": "I learned how to use CRUD and Supabase even better and now have a great reference for future projects. In addition, I gained more experience with Jitter and Lottie animations.",
+    "buttonColor": "#FBC41B",
+    "buttonSummary": "A recipe app that combines recipes, pricing, and shopping lists into one single app."
   }
 ]
