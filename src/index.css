@@ -9,7 +9,7 @@
   --hero-size: 10.5rem;
   --h1-size: 10rem;
   --h2-size: 2.5rem;
-  --h3-size: 4rem;
+  --h3-size: 1.75rem;
   --h4-size: 2rem;
   --body-size: 1.25rem;
   --body-small-size: 1.1rem;
@@ -104,6 +104,7 @@ h4 {
 p {
   font-family: var(--body-fontfamily);
   font-size: var(--body-size);
+  line-height: 150%;
   margin: 0;
   padding: 0;
 }
