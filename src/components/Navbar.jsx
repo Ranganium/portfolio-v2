@@ -6,7 +6,7 @@ import styles from "./Navbar.module.css";
 function Navbar() {
   return (
     <nav className={styles.navbar}>
-      <Link style={{ width: `100%`, "max-width": `250px` }} to="/">
+      <Link style={{ width: `100%`, "max-width": `300px` }} to="/">
         <img src={Logo} alt="Logo" />
       </Link>
 
