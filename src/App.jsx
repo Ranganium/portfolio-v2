@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
-        <Route path="/om-mig" element={<AboutMePage />}></Route>
+        <Route path="/about" element={<AboutMePage />}></Route>
         <Route path="*" element={<Error />}></Route>
         <Route path="/projects/:slug" element={<CasePage />}></Route>
       </Routes>

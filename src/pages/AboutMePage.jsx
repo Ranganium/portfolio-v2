@@ -1,5 +1,5 @@
 // Mønster
-import aboutPattern from "../assets/other-icons/about-pattern.svg";
+import dubbleBraidPattern from "../assets/dubble-braid-pattern.svg";
 // billede
 import JeppeBillede from "../assets/jeppe-billede.jpg";
 // Logoer og ikoner
@@ -28,96 +28,13 @@ import styles from "./AboutMePage.module.css";
 function AboutMePage() {
   return (
     <div className={styles.aboutPage}>
-      <section className={styles.aboutHero}>
-        <img src={aboutPattern} aria-hidden="true" />
-        <h1>hvem er jeppe</h1>
-      </section>
+      <img src={dubbleBraidPattern} aria-hidden="true" />
+      <h1>Who am I</h1>
       <div className={styles.aboutGrid}>
         <div className={styles.aboutColumn}>
           <div className={styles.aboutBio}>
-            <p>Hej!</p>
-            <p>
-              Mit navn er Jeppe. Jeg kommer fra en lille by i Vestjylland kaldet
-              Ådum.
-            </p>
-            <p>
-              Jeg brænder for at lave digitale, brugercentrerede løsninger med
-              brug af intuitivt design og funktionel kodning.
-            </p>
-            <p>
-              På det seneste har jeg også fået en begejstring for databaser, som
-              jeg gerne vil lære endnu mere om.
-            </p>
-            <p>
-              Min personlighedstype er "Beskytter" (ISFJ-T). Som person er jeg
-              empatisk og håber andre har det godt.
-            </p>
-          </div>
-          <div className={styles.aboutTestimonial}>
-            <h3>Testimonial</h3>
-            <p>
-              ”Jeppe har en systematisk tilgang til opgaver, og det har været en
-              stor hjælp i forhold til effektiviseringen af vores produktramme.
-            </p>
-            <p>
-              Jeppe er ansvarlig, arbejdsom, loyal og en rigtig god kollega. Vi
-              kan derfor give Jeppe Kristensen vores bedste anbefalinger”
-            </p>
-            <p>
-              <strong>Erik Hein</strong>, Soldaterhjemsleder
-            </p>
-          </div>
-        </div>
 
         <div className={styles.aboutColumn}>
-          <div className={styles.imageWrapper}>
-            <img src={JeppeBillede} alt="billede af Jeppe" />
-          </div>
-
-          <div className={styles.toolBox}>
-            <h3>Værktøjskasse</h3>
-            <div className={styles.toolBoxStuff}>
-              <div className={styles.aboutIcons}>
-                <img src={figmaLogo} alt="Figma" />
-                <img src={illustratorLogo} alt="Adobe Illustrator" />
-              </div>
-              <div className={styles.orangeLine}></div>
-              <span>Design & prototyping</span>
-            </div>
-            <div className={styles.toolBoxStuff}>
-              <div className={styles.aboutIcons}>
-                <img src={cssLogo} alt="CSS" />
-                <img src={htmlLogo} alt="HTML" />
-                <img src={reactLogo} alt="React" />
-                <img src={javascriptLogo} alt="JavaScript" />
-              </div>
-              <div className={styles.orangeLine}></div>
-              <span>Frontendudvikling</span>
-            </div>
-            <div className={styles.toolBoxStuff}>
-              <div className={styles.aboutIcons}>
-                <img src={githubLogo} alt="GitHub" />
-                <img src={gitLogo} alt="git" />
-              </div>
-              <div className={styles.orangeLine}></div>
-              <span>Samarbejde & versionsstyring</span>
-            </div>
-          </div>
-        </div>
-
-        <div className={styles.aboutColumn}>
-          <div className={styles.interestsBox}>
-            <h3>Interesser</h3>
-            <div className={styles.interests}>
-              <ImgPoint img={trainingIcon} point="Træning" />
-              <ImgPoint img={gameIcon} point="Spille masser af computer" />
-              <ImgPoint img={bakingIcon} point="Bagning & generel madlavning" />
-              <ImgPoint
-                img={questioningIcon}
-                point="Finde ud af hvorfor ting fungerer"
-              />
-            </div>
-          </div>
 
           <div className={styles.experienceBox}>
             <h3>Erfaring</h3>
